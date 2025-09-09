@@ -1,9 +1,11 @@
-body {
-    background-color: rgb(109, 165, 165);
+html  {
+    box-sizing: border-box;
 }
 
-button {
-    background-color: black;
-    color: antiquewhite;
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
+
