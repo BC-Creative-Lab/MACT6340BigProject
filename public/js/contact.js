@@ -2,9 +2,25 @@
 
 "use strict"
 
-document.querySelector("#contact-form-button").addEventListener("click", submitMail);
+let form = document.querySelector('#contact-form');
 
-function submitMail () {
-    console.log("You clicked the submit button.");
+document
+.querySelector("#contact-form-button")
+.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    let formValid = true;
+    if (!form.checkValidity()) {
+      formValid = false;
+    }
+    form.classList.add("was-validated");
+    if (formValid) {
+      sendTheEmail();
+    }
+});
+
+function sendTheEmail(){
+    
 }
+
 }());
