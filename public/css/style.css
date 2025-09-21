@@ -10,9 +10,16 @@ html  {
 }
 
 body {
-  background-color: RGB(141, 123, 140);
-  font-family: orbitron;
+  background-color: RGB(20, 1, 18);
+  font-family: "Major Mono Display";
+  color: RGB(205,95,250);
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+        background-color: RGB(205,95,250) !important;
+        border-color:RGB(205,95,250) !important;
+    }
 }
+
 
 #splash {
   min-height: 800px;
