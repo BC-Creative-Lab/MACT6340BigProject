@@ -26,6 +26,11 @@ body {
   border-bottom: 2px solid #ffaab8; /* Example: 2px solid magenta border */
 }
 
+  .custom-top-border {
+  border-top: 2px solid #ffaab8; /* Example: 2px solid magenta border */
+  
+}
+
 }
 
 
