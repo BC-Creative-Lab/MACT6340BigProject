@@ -16,8 +16,8 @@ export async function sendMessage(sub, txt) {
     let message = {
         from: process.env.MESSAGE_FROM,
         to: process.env.MESSAGE_TO,
-       // subject:,
-        //text:,
+        subject: sub,
+        text: txt,
     };
 
     await transporter
