@@ -1,9 +1,10 @@
 import express from "express";
-import dotenv from "dotenv";
 import * as utils from "./utils/utils.js";
-dotenv.config();
 import * as db from "./utils/database.js";
-let data = ["Project 1", "Project 2", "Project 3"];
+import dotenv from "dotenv";
+dotenv.config();
+
+//let data = ["Project 1", "Project 2", "Project 3"];
 let projects = [];
 
 const app = express();
@@ -34,6 +35,7 @@ app.get("/project/:id", (req, res) => {
   if (id > data.length) {
     throw new Error("No project with that ID");
   }
+   console.log(projects[id - 1], id);
   res.render("project.ejs", { project: projects[id - 1], which: id });
 });
 
