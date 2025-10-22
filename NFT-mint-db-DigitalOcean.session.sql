@@ -21,8 +21,8 @@ INSERT INTO projects (
       active
    )
 VALUES (
-      "Project 1",
-      "images/satellite.jpg",
+      "Satellite",
+      "https://nft-mint.sfo3.cdn.digitaloceanspaces.com/images/satellite.jpg",
       "This is a short description of the first project.  It is a really good project.  It is made by a really good artist.  It is really good work.  It has good code.  It has good visuals.  And it has heart and soul.",
       25,
       1.0,
@@ -31,8 +31,8 @@ VALUES (
       0
    ),
    (
-      "Project 2",
-      "images/diffReact.png",
+      "Diffusion Reaction",
+      "https://nft-mint.sfo3.cdn.digitaloceanspaces.com/images/diffReact.png",
       "This is a short description of the second project.  It is a really good project.  It is made by a really good artist.  It is really good work.  It has good code.  It has good visuals.  And it has heart and soul.",
       64,
       1.5,
@@ -41,8 +41,8 @@ VALUES (
       0
    ),
    (
-      "Project 3",
-      "images/purpleOrangeWidget.png",
+      "Widgetry",
+      "https://nft-mint.sfo3.cdn.digitaloceanspaces.com/images/purpleOrangeWidget.png",
       "This is a short description of the third project.  It is a really good project.  It is made by a really good artist.  It is really good work.  It has good code.  It has good visuals.  And it has heart and soul.",
       512,
       2.0,
@@ -50,3 +50,5 @@ VALUES (
       2,
       0
    );
+
+
